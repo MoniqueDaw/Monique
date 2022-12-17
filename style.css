@@ -22,7 +22,7 @@ h1 {
 }
 
 h2 {
-  font-size: 64px;
+  font-size: 44px;
 }
 
 h3 {
@@ -52,6 +52,10 @@ p {
   font-weight: normal;
   line-height: 2;
   font-size: 24px;
+}
+
+.project-description {
+  padding: 100px 60px;
 }
 
 .navigation-links {
@@ -107,4 +111,10 @@ p {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+}
+@media (max-width: 900px) {
+  .project-description {
+    padding: none;
+    text-align: center;
+  }
 }

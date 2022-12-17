@@ -1,17 +1,11 @@
 :root {
   --primary-color: #6c63ff;
-  --secondary-color: #f5f2fe;
+  --secondary-color: #f9f7fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 body {
   margin-top: 100px;
-}
-
-h1,
-h2,
-h3 {
-  margin: 0;
 }
 
 h1 {
@@ -31,7 +25,16 @@ h3 {
 p {
   font-size: 18px;
   line-height: 1.5;
+}
+
+.hero {
+  background-color: var(--secondary-color);
   text-align: center;
+}
+
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
 }
 
 .navigation-links {

@@ -56,6 +56,7 @@ p {
 
 .project-description {
   padding: 100px 60px;
+  text-align: center;
 }
 
 .navigation-links {
@@ -113,8 +114,8 @@ p {
   color: white;
 }
 @media (max-width: 900px) {
-  .project-description {
-    padding: none;
-    text-align: center;
+  h1 {
+    font-size: 44px;
+    line-height: 2;
   }
 }

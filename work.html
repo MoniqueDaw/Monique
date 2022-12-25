@@ -34,9 +34,9 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="/index.html">Monique</a>
+        <a class="navbar-brand" href="/index.html" title="Monique">Monique </a>
         <button
           class="navbar-toggler"
           type="button"
@@ -51,79 +51,97 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link active"
-                aria-current="page"
-                href="about.html"
-                title="about"
-                >About me</a
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
               >
             </li>
+
             <li class="nav-item">
-              <a
-                class="nav-link"
-                aria-current="page"
-                href="work.html"
-                title="Moniques's Projects"
-                >My Work</a
-              >
+              <a class="nav-link" href="about.html">About me</a>
             </li>
             <li class="nav-item">
-              <a
-                class="nav-link"
-                aria-current="page"
-                href="about.html#contact"
-                title="contact"
-                >Contact me</a
-              >
+              <a class="nav-link active" href="work.html">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html#contact">Contact me</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <h1 class="text-center">About me</h1>
-    <h3 class="text-center">Front-end developer from Toronto, Canada</h3>
-    <div class="about-paragraphs text-center">
+    <h1 class="about-title text-center">About Me</h1>
+    <h3 class="text-center">Front-end developer from Toronto, ON Ca</h3>
+
+    <div class="about-paragraphs">
       <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
+        aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
+        alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
+        blanditiis harum.
+        <br />
+        <br />
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
+        aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
+        alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
+        blanditiis harum.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
+        aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
+        alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
+        blanditiis harum.
+        <br />
+        <br />
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
         aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
         alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
         blanditiis harum.
       </p>
     </div>
-    <div class="container mb-5">
+    <div class="container">
       <div class="row">
-        <div class="col-sm-4">
+        <div class="col-sm-4 mt-4">
           <img
             src="images/yoga.png"
-            class="img-fluid p-2 shadow rounded image"
-            title="yoga project"
+            class="img-fluid p-2 shadow rounded"
+            alt="woman praticing yoga"
           />
         </div>
-        <div class="col-sm-4">
+
+        <div class="col-sm-4 mt-4">
           <img
             src="images/weather.png"
-            class="img-fluid p-2 shadow rounded image"
-            title="weather project"
+            class="img-fluid p-2 shadow rounded"
+            alt="weather forecast"
           />
         </div>
-        <div class="col-sm-4">
+
+        <div class="col-sm-4 mt-4">
           <img
             src="images/yogurt.png"
-            class="img-fluid p-2 shadow rounded image"
-            title="yogurt project"
+            class="img-fluid p-2 shadow rounded"
+            alt="image of yogurt"
           />
         </div>
       </div>
-    </div>
-    <div id="contact" class="mt-5">
-      <h2 class="text-center">📮 Contact me</h2>
-      <a href="mailto:gbloess@webmail.com" class="email-link"
-        >gbloess@webmail.com</a
-      >
+      <div id="contact">
+        <h2>📮 Contact me</h2>
+        <a href="mailto:gbloess@webmail.com" class="email-link">
+          gbloess@webmail.com
+        </a>
+      </div>
+      <footer class="text-center mt-5">
+        <h3>Follow me on social media!</h3>
+        <div class="social-links d-flex justify-content-center">
+          <a href="" target="_blank">
+            <i class="fab fa-github" aria-hidden="true"></i>
+          </a>
+
+          <i class="fab fa-instagram" aria-hidden="true"></i>
+
+          <i class="fab fa-linkedin" aria-hidden="true"></i>
+        </div>
+      </footer>
     </div>
   </body>
 </html>

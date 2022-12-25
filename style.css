@@ -55,7 +55,7 @@ footer .contact-box p {
 
 footer .email-link {
   text-decoration: none;
-  color: black;
+  color: var(--branding-color);
   font-size: 24px;
 }
 
@@ -100,13 +100,30 @@ footer .social-links a:hover {
 }
 
 .btn-branding-outline {
-  background: var(--branding-color);
-  color: white;
+  color: var(--branding-color);
   border: 1px solid var(--branding-color);
   border-radius: 4px;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+.btn-branding-outline:hover {
+  border: 1px solid var(--branding-color);
+  background-color: var(--branding-color);
+  color: white;
+}
+
+.work-inquiry .btn-branding-outline {
+  border: 1px solid var(--branding-color);
+  background-color: var(--branding-color);
+  color: white;
+  text-decoration: none;
+}
+
+.work-inquiry .btn-branding-outline:hover {
+  border: 1px solid var(--branding-color);
+  background-color: white;
+  color: var(--branding-color);
 }
 
 .project-desciption {
@@ -157,5 +174,8 @@ footer .social-links a:hover {
   h1 {
     font-size: 44px;
     line-height: 2;
+  }
+  h2 {
+    font-size: 40px;
   }
 }
